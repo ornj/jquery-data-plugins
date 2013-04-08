@@ -17,4 +17,5 @@ This file contains methods for working with query strings.
 ###jquery.object.js
 This file contains methods for working with objects.
 
-1.  `$.object.diff`: returns an object containing fields that vary between the first object and second. It currently does not include deletions. Credit goes to [Bergi on Stackoverflow](http://stackoverflow.com/a/11022327/947655) 
+1.  `$.object.diff({}, {})`: returns an object containing fields that vary between the first object and second. It currently does not include deletions. Credit goes to [Bergi on Stackoverflow](http://stackoverflow.com/a/11022327/947655) 
+2.  `$.object.clear({}, ['prop1', 'prop2'])`: Clear all properties of an object expect for the ones specified in parameter 2.
