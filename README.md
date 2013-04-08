@@ -12,6 +12,7 @@ This file contains methods for working with query strings.
 
 1.  `$.querystring.serialize({...})`: converts a simple object to a query string. `{ foo: 'v1', bar: 'v2' }` translates to `?foo=v1&bar=v2`.
 2.  `$.querystring.unserialize('...')`: converts a query string to an object. `?foo=v1&bar=v2` translates to `{ foo: 'v1', bar: 'v2' }`.
+3.  `$.querystring.merge(url, object)`: merges a url string with an object containing new or updated parameters.
 
 ###jquery.object.js
 This file contains methods for working with objects.
